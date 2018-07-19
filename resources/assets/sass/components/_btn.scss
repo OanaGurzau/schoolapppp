@@ -1,0 +1,10 @@
+.btn-add-new{
+    float: right;
+    margin-bottom: 2rem;
+}
+
+.btn-add-new::after{
+    content: '';
+    display: block;
+    clear: both;
+}
